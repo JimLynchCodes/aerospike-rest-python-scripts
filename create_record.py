@@ -19,7 +19,7 @@ bins = {
     'languages': ['Python', 'Java', 'C'],
 }
 
-# Store the record
+# Stores the record
 res = requests.post(record_uri, json=bins)
 
 print("*** Saved Record ***")
